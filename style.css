@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration:none ;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body{ 
+    font-family: Arial, Helvetica, sans-serif;
+     background-color: black;
+     
+}
+.navbar{
+    overflow: hidden;
+    background-color:rgb(25, 35, 46);
+    
+}
+
+.navbar a{
+    float: left;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.dropdown .dropbtn{
+    font-size: 16px;
+    outline: none;
+    color: white;
+    border: none;
+    padding: 14px 16px;
+    margin: 0;
+    background-color: inherit;
+    font-family: inherit;
+
+}
+.dropdown{
+    overflow: hidden;
+    float: left;
+    margin-top: 12px;
+    opacity: 0.8;
+    
+
+}
+
+.dropdown-content{
+    position: relative;
+    display: none;
+    background-color: rgb(25, 35, 46) ;
+    min-width: 560px;
+    box-shadow:0px 8px 16px 0px rgba(0, 0, 0, 0.2) ;
+    height: 400px;
+    z-index: 1;
+    float: right;
+}
+.dropdown-content a{
+    float: none;
+    color: #fff;
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+    text-align: left;
+    
+}
+.dropdown-content a:hover{
+   background-color: #ddd;
+    opacity: 0.4;
+
+}
+.dropdown:hover  .dropdown-content {
+    display: block;
+}
+
+.logo{
+    height: 80px;
+    width: 160px;
+    mix-blend-mode: lighten;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 53px;
+    
+}
+
+.g{
+    font-size: 20px;
+    margin-top: 22px;
+    margin-left: 1120px;
+    opacity: 0.8;
+
+}
+
+.lang{
+    background-color: #222;
+    margin-left: 100px;
+    transform: rotate(90deg);
+    width: 50%;
+    margin-top: -190px;
+    
+}
+
+.l1{
+    margin-top: -190px;
+    margin-left: 300px;
+    
+
+}
+
+.giris{
+    margin-top: 26px;
+    opacity: 0.8;
+
+ 
+}
+.img {
+    max-width:100%;
+    height: auto;
+    }
+
+.anayazi1{
+    color: #fff;
+    font-size: 45px;
+    margin-top: -610px;
+    margin-left: 830px;
+    
+}
+.altyazi1{
+    color: #fff;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-left: 830px;
+    font-family: Sanchez;
+    opacity: 0.9;
+}
+.buton2{
+    background-color:rgb(15, 121, 175);
+    margin-left: 830px;
+    margin-top: 20px;
+
+}
+.buton{
+    background-color:rgb(15, 121, 175);
+    border: none;
+    color: white;
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 830px;
+    margin-top: 50px;
+    border-radius: 3px;
+}
+.cizgi{
+    color: #fff;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 830px;
+}
+.buton3{
+    background-color:rgb(15, 121, 175);
+    border: none;
+    color: white;
+    padding: 15px 63px;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 830px;
+    margin-top: 15px;
+    border-radius: 3px;
+}
+.bilgi{
+    color: #fff;
+    font-size: 14px;
+    margin-top: 40px;
+    margin-left: 830px;
+}
+.ikincialan{
+    margin-top: 40px;
+}
+
+.yazi2{
+    color: black;
+    font-size: 45px;
+    margin-top: -550px;
+    margin-left: 830px;
+}
+.altyazi2{
+    color: black;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-left: 830px;
+    font-family: Sanchez;
+    opacity: 0.9;
+}
+.ucuncualan{
+    margin-top: 90px;
+    
+}
+
+.yazi3{
+    color: #fff;
+    font-size: 45px;
+    margin-top: -550px;
+    margin-left: 830px;
+}
+
+.altyazi3{
+    color:#fff;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-left: 830px;
+    font-family: Sanchez;
+    opacity: 0.9;
+}
+
+.sonbolum{
+    margin-top: 240px;
+    background-color: white;
+    height: 645px;
+    width: 1650px;
+}
+
+.yazi4{
+    margin-left: 110px;
+    font-size: 30px;
+}
+
+.yazi4_1{
+    margin-left: 490px;
+    margin-top: -175px;
+}
+.yazi4_2{
+    margin-left: 965px;
+    margin-top: -138px;
+}
+.a1{
+    font-size: 20px;
+}
+.altbolum{
+    background-color:rgb(25, 35, 46); 
+    height:120px;
+    width: 1550px;   
+}
+.p1{
+    margin-left: 650px;
+    margin-top: 15px;
+    
+}
+.hakkimda{
+    margin-top: 35px;
+    margin-bottom: 25px;
+    color: white;
+    margin-left: 35px;
+    font-size: 32px;
+
+}
+.isim{
+    background-color:rgb(25, 35, 46); 
+    border: none;
+    color: white;
+    padding: 12px 290px;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.cv{
+    margin-top: 55px;
+}
+
